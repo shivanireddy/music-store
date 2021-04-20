@@ -1,0 +1,13 @@
+package com.shivani.musicstore.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class CreateArtistResponse {
+
+    private ArtistModel artist;
+
+}
+
